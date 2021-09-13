@@ -212,6 +212,7 @@
 				<tr>
 					<th width="40%">Nome do Paciente</th>
 					<th width="30%">Status</th>
+					<th width="10%">Local</th>
 					<th width="10%">Início Previsto</th>
 					<th width="10%">Início da Cirurgia</th>
 					<th width="10%">Fim da Cirurgia</th>
@@ -228,7 +229,8 @@
 			%>
 					<tr onclick="preparaEdicao(<%=ps.getId() %>, '<%=ps.getNome() %>', '<%=ps.getStatus() %>', '<%=ps.getLocal() %>', '<%=ps.getInicioPrevisto()%>', '<%=ps.getInicioCirurgia()%>', '<%=ps.getFimCirurgia()%>', '<%=ps.getSaidaPrevista()%>')">
 						<td><%=ps.getNome() %></td>
-						<td><%=ps.getStatus()+" ("+ps.getLocal()+")" %></td>
+						<td><%=ps.getStatus()%></td>
+						<td><%=ps.getLocal()%></td>
 						<td><%=ps.getInicioPrevisto()%></td>
 						<td><%=ps.getInicioCirurgia()%></td>
 						<td><%=ps.getFimCirurgia()%></td>
