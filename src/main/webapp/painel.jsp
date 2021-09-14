@@ -12,6 +12,7 @@
 	href="css/bootstrap.min.css">
 </head>
 <body>
+<%@ include file="menuLogin.jsp"%>
 <p>
 		<img
 			src="img/Bandeira_do_Distrito_Federal_Brasil.png"
@@ -37,7 +38,6 @@
 			<tr>
 				<th width="40%">Nome do paciente</th>
 				<th width="20%">Status</th>
-				<th width="20%">Local</th>
 				<th width="10%">Início Prevísto</th>
 				<th width="10%">Início da Cirurgia</th>
 				<th width="10%">Fim da Cirurgia</th>

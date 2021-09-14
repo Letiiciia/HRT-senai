@@ -17,6 +17,8 @@
 	href="css/bootstrap.min.css">
 </head>
 <body>
+<%@ include file="menuLogin.jsp"%>
+
 <script>
 		var pacientes = localStorage.getItem('ls-tabela');
 		
@@ -192,7 +194,7 @@
 					 <input	type="time" class="form-control" id="inicio-cirurgia"name="inicio-cirurgia" size="20">
 				</div>
 				<div class="form-group  col-md-3">
-					<label for="inicio-previsto">Fim daCirurgia:</label>
+					<label for="inicio-previsto">Fim da Cirurgia:</label>
 					 <input type="time" class="form-control" id="fim-cirurgia" 	name="fim-cirurgia" size="20">
 				</div>
 				<div class="form-group  col-md-3">
@@ -212,7 +214,6 @@
 				<tr>
 					<th width="40%">Nome do Paciente</th>
 					<th width="30%">Status</th>
-					<th width="10%">Local</th>
 					<th width="10%">Início Previsto</th>
 					<th width="10%">Início da Cirurgia</th>
 					<th width="10%">Fim da Cirurgia</th>
