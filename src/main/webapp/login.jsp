@@ -8,10 +8,11 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-	<%@ include file="menu.jsp"%>
+<h1 style="text-align: center">Sistema HRT</h1>
+	<%@ include file="menu.jsp"%>	
 	<fieldset style="width: 50%; margin: 0px auto;">
 		<form action="loginServlet" method="post">
-			<legend></legend>
+			<br>
 			<label for="login">Login:</label> <input class="larguraTexto"
 				type="text" id="login" name="login" autocomplete="off"
 				placeholder="Digite seu login"> <label for="senha">Senha:</label>
